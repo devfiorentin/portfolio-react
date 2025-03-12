@@ -1,10 +1,19 @@
 import img from "../assets/img/foto-portfolio.png";
+import CV from "../assets/cv/jean-fiorentin.pdf";
 
 function InfoPortfolio() {
-  return (
-    <div className="text-justify flex flex-col md:flex-row px-4 md:px-20 lg:px-40 pt-28 md:pt-44 text-white md:justify-between w-full gap-8 md:gap-0">
+  const handleDownloadCV = () => {
+    // criamos o link temporario
+    const link = document.createElement("a");
+    link.href = CV;
+    link.download = "jean-fiorentin.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
-      
+  return (
+    <div className="text-justify flex flex-col md:flex-row px-4 md:px-20 lg:px-40 pt-28 md:pt-44 text-white md:justify-between w-full gap-8 md:gap-0 ">
       <section className="w-full items-left md:items-left text-center md:text-left">
         <span className="uppercase text-withe text-[16px] md:text-[20px]">
           Desenvolvedor Web
@@ -18,7 +27,10 @@ function InfoPortfolio() {
           Cortei a faculdade por motivos financeiros, e estou me dedicando aos
           estudos.
         </p>
-        <button className="mt-7 gap-4 bg-gradient-to-r from-[#5222D0] to-[#FF6196] px-6 md:px-9 py-2 md:py-3 rounded-[8px] text-base md:text-[18px] hover:opacity-90 transition-opacity">
+        <button
+          onClick={handleDownloadCV}
+          className="mt-7 gap-4 bg-gradient-to-r from-[#5222D0] to-[#FF6196] px-6 md:px-9 py-2 md:py-3 rounded-[8px] text-base md:text-[18px] hover:opacity-90 transition-opacity"
+        >
           Download CV
         </button>
       </section>

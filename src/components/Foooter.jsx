@@ -4,7 +4,7 @@ import github from "../assets/github.svg";
 
 function Footer() {
   return (
-    <div className="container mx-auto px-4 md:px-20 py-10">
+    <div id="contato" className="container mx-auto px-4 md:px-20 py-10">
       <div className="w-full">
         <span className="text-withe text-2xl md:text-3xl text-white font-bold">
           Redes Sociais

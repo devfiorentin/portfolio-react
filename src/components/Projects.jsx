@@ -1,8 +1,11 @@
 function Projects() {
   return (
-    <div className="container mx-auto px-4 md:px-20 lg:px-40 py-10 md:py-20">
-      <div className="w-full">
-        <h2 className="text-white text-2xl md:text-3xl font-bold mb-8 md:mb-12 px-2 md:px-0">
+    <div
+      id="projetos"
+      className="container mx-auto px-4 md:px-20 lg:px-40 py-10 md:py-20"
+    >
+      <div className="w-full break-all">
+        <h2 className="text-white text-2xl md:text-3xl font-bold mb-8 md:mb-12 px-2 md:px-0 ">
           Projects
         </h2>
 
@@ -11,11 +14,11 @@ function Projects() {
           <div className="flex flex-col bg-zinc-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="p-4 md:p-6 flex flex-col h-full">
               <h3 className="text-black text-lg md:text-xl uppercase font-medium mb-3 md:mb-4">
-                Title Project
+                PORTFÓLIO
               </h3>
               <div className="flex flex-wrap gap-2 mb-3 md:mb-4">
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  React
+                  REACT
                 </span>
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
                   HTML
@@ -24,14 +27,20 @@ function Projects() {
                   CSS
                 </span>
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  JS
+                  JSX
                 </span>
               </div>
               <p className="text-gray-700 text-sm md:text-base flex-grow">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+                Meu portfólio, feito com React, JSX, Tailwind CSS e HTML. <br />
               </p>
+
+              <a
+                className="text-blue-500 mt-2"
+                href="https://portfolio-three-nu-29.vercel.app/"
+                target="_blank"
+              >
+                https://portfolio-three-nu-29.vercel.app/
+              </a>
             </div>
           </div>
 
@@ -39,27 +48,34 @@ function Projects() {
           <div className="flex flex-col bg-zinc-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="p-4 md:p-6 flex flex-col h-full">
               <h3 className="text-black text-lg md:text-xl uppercase font-medium mb-3 md:mb-4">
-                Title Project
+                PREVISÃO DO TEMPO
               </h3>
               <div className="flex flex-wrap gap-2 mb-3 md:mb-4">
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  React
+                  REACT
+                </span>
+                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
+                  JSX
+                </span>
+                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
+                  TAILWIND CSS
                 </span>
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
                   HTML
                 </span>
-                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  CSS
-                </span>
-                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  JS
-                </span>
               </div>
               <p className="text-gray-700 text-sm md:text-base flex-grow">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+                Projeto desenvolvido com React, JSX, Tailwind CSS e HTML. <br />
+                Como estudo de caso, fiz um app de previsão do tempo. <br />
               </p>
+
+              <a
+                className="text-blue-500 mt-2"
+                href="https://previsaodotempo-blond.vercel.app/"
+                target="_blank"
+              >
+                https://previsaodotempo-blond.vercel.app/
+              </a>
             </div>
           </div>
 
@@ -67,27 +83,42 @@ function Projects() {
           <div className="flex flex-col bg-zinc-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="p-4 md:p-6 flex flex-col h-full">
               <h3 className="text-black text-lg md:text-xl uppercase font-medium mb-3 md:mb-4">
-                Title Project
+                GERENCIADOR DE TAREFAS
               </h3>
               <div className="flex flex-wrap gap-2 mb-3 md:mb-4">
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  React
+                  REACT
+                </span>
+                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
+                  JSX
+                </span>
+                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
+                  TAILWIND CSS
                 </span>
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
                   HTML
                 </span>
-                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  CSS
-                </span>
-                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  JS
-                </span>
               </div>
+
               <p className="text-gray-700 text-sm md:text-base flex-grow">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+                A partir de uma video aula do canal do youtube{" "}
+                <a
+                  className="text-violet-500 font-bold"
+                  href="https://www.youtube.com/watch?v=2RWsLmu8yVc&t=4808s&ab_channel=FelipeRocha%E2%80%A2FullStackClub"
+                  target="_blank"
+                >
+                  Felipe Rocha - Full Stack Club
+                </a>
+                , fiz um gerenciador de tarefas. <br />
+                Começo dos meus estudos com React. <br />
               </p>
+              <a
+                className="text-blue-500 mt-2"
+                href="https://aula-react-hazel.vercel.app/"
+                target="_blank"
+              >
+                https://aula-react-hazel.vercel.app/
+              </a>
             </div>
           </div>
 
@@ -95,11 +126,14 @@ function Projects() {
           <div className="flex flex-col bg-zinc-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="p-4 md:p-6 flex flex-col h-full">
               <h3 className="text-black text-lg md:text-xl uppercase font-medium mb-3 md:mb-4">
-                Title Project
+                TRADUTOR COM FLASK
               </h3>
               <div className="flex flex-wrap gap-2 mb-3 md:mb-4">
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  React
+                  PYTHON
+                </span>
+                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
+                  FLASK
                 </span>
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
                   HTML
@@ -107,22 +141,29 @@ function Projects() {
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
                   CSS
                 </span>
-                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  JS
-                </span>
               </div>
+
               <p className="text-gray-700 text-sm md:text-base flex-grow">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+                Um simples site usando Flask e DeepTranslator para traduzir
+                texto. <br />
               </p>
+
+              <a
+                className="text-blue-500 mt-2 text-wrap"
+                href="https://github.com/devfiorentin/translator_flask"
+                target="_blank"
+              >
+                https://github.com/devfiorentin/translator_flask
+              </a>
             </div>
           </div>
         </div>
 
         <div className="text-center mt-8 md:mt-12">
           <button className="bg-gradient-to-r from-[#5222D0] to-[#FF6196] px-6 md:px-8 py-2 md:py-3 rounded-lg text-base md:text-lg text-white font-medium hover:opacity-90 transition-opacity duration-300">
-            Ver Todos Os Projetos
+            <a href="https://github.com/devfiorentin" target="_blank">
+              Ver Todos Os Projetos
+            </a>
           </button>
         </div>
       </div>

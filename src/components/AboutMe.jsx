@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
     <div className="container mx-auto px-4 md:px-20 lg:px-40 pt-20 md:pt-44 pb-20">
-      <div className="w-full">
+      <div className="w-full ">
         <span className="text-withe text-2xl md:text-3xl font-bold text-white">
           About Me
         </span>
