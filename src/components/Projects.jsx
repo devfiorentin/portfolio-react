@@ -4,7 +4,7 @@ function Projects() {
       id="projetos"
       className="container mx-auto px-4 md:px-20 lg:px-40 py-10 md:py-20"
     >
-      <div className="w-full break-all">
+      <div className="w-full">
         <h2 className="text-white text-2xl md:text-3xl font-bold mb-8 md:mb-12 px-2 md:px-0 ">
           Projects
         </h2>
@@ -14,32 +14,30 @@ function Projects() {
           <div className="flex flex-col bg-zinc-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div className="p-4 md:p-6 flex flex-col h-full">
               <h3 className="text-black text-lg md:text-xl uppercase font-medium mb-3 md:mb-4">
-                PORTFÓLIO
+                LANDING PAGE
               </h3>
               <div className="flex flex-wrap gap-2 mb-3 md:mb-4">
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  REACT
+                  NEXT JS
+                </span>
+                
+                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
+                  TAILWIND CSS
                 </span>
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  HTML
-                </span>
-                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  CSS
-                </span>
-                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  JSX
+                  TYPESCRIPT
                 </span>
               </div>
               <p className="text-gray-700 text-sm md:text-base flex-grow">
-                Meu portfólio, feito com React, JSX, Tailwind CSS e HTML. <br />
+                Landing Page, desenvolvida com Next JS, utilizando Tailwind CSS e TypeScript. <br />
               </p>
 
               <a
-                className="text-blue-500 mt-2"
-                href="https://portfolio-three-nu-29.vercel.app/"
+                className="text-blue-500 mt-2 break-all"
+                href="https://mindflow-landing-page.vercel.app/"
                 target="_blank"
               >
-                https://portfolio-three-nu-29.vercel.app/
+                https://mindflow-landing-page.vercel.app/
               </a>
             </div>
           </div>
@@ -60,9 +58,7 @@ function Projects() {
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
                   TAILWIND CSS
                 </span>
-                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  HTML
-                </span>
+               
               </div>
               <p className="text-gray-700 text-sm md:text-base flex-grow">
                 Projeto desenvolvido com React, JSX, Tailwind CSS e HTML. <br />
@@ -70,7 +66,7 @@ function Projects() {
               </p>
 
               <a
-                className="text-blue-500 mt-2"
+                className="text-blue-500 mt-2 break-all"
                 href="https://previsaodotempo-blond.vercel.app/"
                 target="_blank"
               >
@@ -95,9 +91,7 @@ function Projects() {
                 <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
                   TAILWIND CSS
                 </span>
-                <span className="bg-violet-500 text-white px-2 md:px-3 py-1 rounded text-sm">
-                  HTML
-                </span>
+                
               </div>
 
               <p className="text-gray-700 text-sm md:text-base flex-grow">
@@ -113,7 +107,7 @@ function Projects() {
                 Começo dos meus estudos com React. <br />
               </p>
               <a
-                className="text-blue-500 mt-2"
+                className="text-blue-500 mt-2 break-all"
                 href="https://aula-react-hazel.vercel.app/"
                 target="_blank"
               >
@@ -149,7 +143,7 @@ function Projects() {
               </p>
 
               <a
-                className="text-blue-500 mt-2 text-wrap"
+                className="text-blue-500 mt-2 break-all"
                 href="https://github.com/devfiorentin/translator_flask"
                 target="_blank"
               >
